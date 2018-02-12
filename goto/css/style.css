@@ -1,0 +1,10 @@
+body {
+	background-color: #666666;
+}
+
+div {
+	position: absolute;
+	left: 40%;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
