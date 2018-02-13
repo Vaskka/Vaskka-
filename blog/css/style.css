@@ -1,4 +1,7 @@
-
+body {
+	background-attachment: fixed;
+	background-image: url("../pic/background-fixed.jpg");
+}
 
 /*主体部分*/
 .container {
@@ -42,7 +45,6 @@
 }
 
 .header .header-nav li {
-
 	height: 70px;
 	float: left;
 	padding: 40px;
@@ -77,25 +79,112 @@
 }
 
 /*过度*/
+.mid-transit {
+	background-color: #666633;
+	height: 100px;
+}
+.mid-transit blockquote {
+	width: 100%;
+	height: 100%;
+}
 .mid-transit blockquote span {
+	position: relative;
+	top: 4px;
+	font-size: 30px;
 	display: block;
+	font-family: "宋体";
 	text-align: center;
+	vertical-align: center;
+	color: #ffffff;
 }
 .mid-transit blockquote small {
+	display: block;
+	position: relative;
+	left: 80px;
 	text-align: center;
+	color: #CCFFFF;
 }
 
-/*中间视差部分*/
-.background-img-fixed {
-	position: fixed;
-/*	width: 1263.33px;
-	height: 626px;*/
+/*文章主体*/	
+.main-content {
+	padding: 10px;
+	background-color: #FFCC99 
+;
 }
+.container {
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+
 
 /*这是底部*/
 .footer {
-	background-color: black;
+	width: 100%;
+	height: 270px;
+	background-color: #333333;
 	color: #ffffff;
+	font-family: "微软雅黑";
+}
+.footer .footer-left {
+	position: relative;
+	left: 100px;
+	float: left;
+	width: 632px;
+	height: 100%;
+}
+
+.footer .footer-left .footer-title {
+	width: 80%;
+	text-align: center;
+	font-weight: lighter;
+}
+.footer .footer-left .contact-way {
+	float: left;
+	width: 150px;
+	margin: auto 8px;
+} 
+.footer .footer-left .contact-way .btn-group button {
+	display: block; 
+	margin: 0 auto;
+}
+.footer .footer-left .contact-way .btn-group .dropdown-menu img {
+	width: 150px;
+	height: 150px;
+}
+
+.footer .footer-left .footer-toup {
+	width: 300px;
+	margin: 0 auto;
+	line-height: 170px;
+	letter-spacing: 2px;
+}
+.footer .footer-left .footer-toup a {
+	text-decoration: none;
+	color: #ffffff;	
+	font-size: 30px;
+	font-weight: lighter;
+}
+.footer .footer-left .footer-toup a:hover {
+
+	background-color: #CCCCCC; 
+	transition: all 0.4s ease-in-out 0s;
+	color: #000;
+	border-radius: 4px;
+}
+
+.footer .footer-right {
+	position: relative;
+	right: 150px;
+	height: 100%;
+	float: right;
+	width: 300px;
+
+}
+.footer .footer-right .footer-right-content {
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 270px;
 }
 
 /*背景*/
