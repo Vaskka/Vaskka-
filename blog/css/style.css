@@ -1,6 +1,9 @@
 body {
 	background-attachment: fixed;
 	background-image: url("../pic/background-fixed.jpg");
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
 }
 
 /*主体部分*/
@@ -78,7 +81,7 @@ body {
 
 }
 
-/*过度*/
+/*过渡*/
 .mid-transit {
 	background-color: #666633;
 	height: 100px;
@@ -222,7 +225,7 @@ body {
 .background-img-top-shader {
 	position: absolute;
 	z-index: 1;
-	width: 1263px;
+	width: 100%;
 	height: 626px;
 	background: url("../pic/dott.png") repeat 0px 0px;
 }
