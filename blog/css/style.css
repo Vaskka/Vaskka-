@@ -2,8 +2,9 @@ body {
 	background-attachment: fixed;
 	background-image: url("../pic/background-fixed.jpg");
 	background-size: 100% 100%;
-	-moz-background-size: 100% 100%;
-	-webkit-background-size: 100% 100%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	overflow-x: hidden;
 }
 
 /*主体部分*/
@@ -191,9 +192,17 @@ body {
 }
 
 /*背景*/
+.background-top {
+	height: 100%;
+	width: 100%;
+}
 
 /*顶部背景脱离正常文档流*/
 .background-img-top {
+	background-image: url("../pic/background-top.jpg");
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
 	position: absolute;
 	z-index: 0;
 }
